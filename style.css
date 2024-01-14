@@ -2,7 +2,7 @@
 
 /* variables */
 :root {
-	--primary-color: #5924ed;
+	--primary-color: #000000;
 	--secondary-black: #0d081a;
 	--secondary-gray: #48464b;
 	--body-bg: #efebfa;
@@ -69,7 +69,7 @@ p {
 
 	color: transparent;
 	/* -webkit-text-stroke: 1.5px rgba(0, 0, 0, 0.103); */
-	-webkit-text-stroke: 1.5px #5a24ed2f;
+	-webkit-text-stroke: 1.5px #b424892f;
 	z-index: -1;
 }
 .buttons {
@@ -234,7 +234,7 @@ p {
 	transition: 0.3s ease background-color;
 }
 #nav-content .close-btn:hover {
-	background-color: crimson;
+	background-color: rgb(145, 141, 141);
 }
 #nav-content .close-btn svg {
 	width: 80%;
@@ -269,7 +269,7 @@ p {
 #hero {
 	height: 100vh;
 	width: 100%;
-	padding-top: 10rem;
+	padding-top: 5rem;
 }
 #hero .container {
 	display: flex;
@@ -285,7 +285,7 @@ p {
 }
 
 #hero .left .subheading {
-	font-size: 1.8rem;
+	font-size: 1.5rem;
 	font-weight: 500;
 	text-transform: uppercase;
 	color: var(--primary-color);
@@ -294,7 +294,7 @@ p {
 	opacity: 0;
 }
 #hero .left .heading {
-	font-size: 6rem;
+	font-size: 5rem;
 	font-family: 'Montserrat';
 	font-weight: 900;
 	/* max-width: 400px; */
@@ -345,7 +345,7 @@ p {
 }
 #hero .right img {
 	width: 100%;
-	max-width: 450px;
+	max-width: 400px;
 	height: 600px;
 	object-fit: cover;
 	object-position: 50% 30%;
@@ -392,9 +392,9 @@ p {
 	}
 }
 
-/* Services Section */
+/* Skill Section */
 #services {
-	padding: 15rem 0;
+	padding: 5rem 0;
 }
 
 #services .all-items {
@@ -557,7 +557,7 @@ p {
 	}
 }
 
-/* Stats Section Style*/
+/* Certificate Section Style*/
 #stats {
 	padding: 20rem 0 10rem 0;
 }
@@ -569,24 +569,22 @@ p {
 }
 #stats .all-items .item {
 	padding: 2rem;
-}
-#stats .number {
-	font-family: 'Poppins';
-	font-size: 8rem;
+
 }
 #stats .stats-sub-heading {
-	font-size: 2rem;
+	font-size: 2.1rex;
+	text-align: center;
 	margin-bottom: 2rem;
 }
 
 #stats .all-items .item:nth-child(1) {
-	background-color: rgba(255, 238, 0, 0.322);
+	background-color: #c6c6e0d3;
 }
 #stats .all-items .item:nth-child(2) {
-	background-color: rgba(0, 255, 115, 0.329);
+	background-color: #d6d6f4d3;
 }
 #stats .all-items .item:nth-child(3) {
-	background-color: #4705fc50;
+	background-color: #c6c6e0d3;
 }
 @media only screen and (max-width: 768px) {
 	#stats .all-items {
@@ -596,7 +594,7 @@ p {
 
 /* About section  */
 #about {
-	padding: 15rem 0;
+	padding: 20rem 0;
 }
 #about .wrapper {
 	display: flex;
@@ -931,7 +929,7 @@ p {
 
 /* Footer Section */
 #footer {
-	background-color: #311580;
+	background-color: #000000;
 	color: white;
 	padding: 10rem 0 5rem 0;
 }
@@ -1016,7 +1014,7 @@ p {
 /* copyright Section */
 #copyright {
 	padding: 1rem 0;
-	background-color: #221052;
+	background-color: #242222;
 }
 #copyright p {
 	color: white;
