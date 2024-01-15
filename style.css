@@ -409,10 +409,10 @@ p {
 	flex: 1;
 }
 #services .item:nth-child(1):hover {
-	background-color: rgb(8 69 241 / 35%);
+	background-color: #cbbef093;
 }
 #services .item:nth-child(2):hover {
-	background-color: rgba(0, 255, 115, 0.151);
+	background-color: #cbbef093;
 }
 #services .item:nth-child(3):hover {
 	background-color: #cbbef093;
@@ -581,7 +581,7 @@ p {
 	background-color: #c6c6e0d3;
 }
 #stats .all-items .item:nth-child(2) {
-	background-color: #d6d6f4d3;
+	background-color: #c6c6e0d3;
 }
 #stats .all-items .item:nth-child(3) {
 	background-color: #c6c6e0d3;
