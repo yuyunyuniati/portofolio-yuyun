@@ -462,10 +462,10 @@ p {
 		margin: 2rem 0;
 	}
 	#services .item:nth-child(1) {
-		background-color: rgb(8 69 241 / 35%);
+		background-color: #cbbef093;
 	}
 	#services .item:nth-child(2) {
-		background-color: rgba(0, 255, 115, 0.151);
+		background-color: #cbbef093;
 	}
 	#services .item:nth-child(3) {
 		background-color: #cbbef093;
