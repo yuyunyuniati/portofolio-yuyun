@@ -441,13 +441,13 @@ p {
 	color: var(--secondary-gray);
 }
 #services .item:nth-child(1) .icon {
-	background-color: rgb(7 106 255 / 37%);
+	background-color: #cbbef093;
 }
 #services .item:nth-child(2) .icon {
-	background-color: rgba(0, 255, 115, 0.493);
+	background-color: #cbbef093;
 }
 #services .item:nth-child(3) .icon {
-	background-color: #4705fc80;
+	background-color: #cbbef093;
 }
 @media only screen and (max-width: 768px) {
 	#services .all-items {
