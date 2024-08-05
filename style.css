@@ -493,7 +493,7 @@ p {
 	flex: 1;
 }
 #projects .item .right {
-	margin-left: -150px;
+	margin-left: -50px;
 	flex: 1;
 	background-color: var(--body-bg);
 	padding: 5rem 3rem;
