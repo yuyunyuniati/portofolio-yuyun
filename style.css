@@ -810,7 +810,7 @@ p {
 	padding: 5rem 3rem;
 	border-radius: 12px;
 	box-shadow: 0px 0px 20px #00000028;
-	z-index: 2;
+	z-index: 1;
 }
 #Experience .item:nth-of-type(even) .right {
 	margin-left: 0;
