@@ -472,10 +472,9 @@ p {
 	}
 }
 
-/* testimonial section */
 
-/* Experience Section */
-#Experience {
+/* projects Section */
+#projects {
 	padding: 10rem 0;
 }
 #projects .item {
@@ -586,8 +585,8 @@ p {
 	}
 }
 
-
-#testimonial {
+/* testimonial section */
+/* #testimonial {
 	padding: 15rem 0;
 	overflow-x: hidden;
 }
@@ -617,14 +616,14 @@ p {
 	height: 120%;
 	width: 100%;
 	/* border: 1px solid var(--primary-color); */
-	left: 0;
+	/* left: 0;
 	top: 45px;
-	z-index: -1;
+	z-index: -1; */
 
 	/* border-radius: 20px 50px 100px 50px; */
-	box-shadow: 0px 0px 20px 0px #4705fc1f;
-}
-#testimonial .item:nth-of-type(2)::after {
+	/* box-shadow: 0px 0px 20px 0px #4705fc1f;
+} */
+/* #testimonial .item:nth-of-type(2)::after {
 	transform: skew(350deg, 354deg);
 	border-radius: 26px 67px 35px 67px;
 	height: 100%;
@@ -674,7 +673,10 @@ p {
 		margin: 0rem auto;
 		gap: 50px;
 	}
-}
+} */ 
+
+
+
 
 /* Certificate Section Style*/
 #stats {
@@ -782,7 +784,7 @@ p {
 	}
 }
 
-/* Projects Section */
+/* Experience Section */
 #Experience {
 	padding: 10rem 0;
 }
@@ -802,13 +804,13 @@ p {
 	flex: 1;
 }
 #Experience .item .right {
-	margin-left: -150px;
+	width: auto;
+	margin-left: -40px;
 	flex: 1;
 	background-color: var(--body-bg);
 	padding: 5rem 3rem;
 	border-radius: 12px;
 	box-shadow: 0px 0px 20px #00000028;
-	box-sizing: content-box;
 	z-index: 2;
 }
 #Experience .item:nth-of-type(even) .right {
@@ -819,6 +821,7 @@ p {
 }
 #Experience .item .left .img {
 	height: 500px;
+	width: 600px;
 	overflow: hidden;
 	border-radius: 12px;
 	overflow: hidden;
