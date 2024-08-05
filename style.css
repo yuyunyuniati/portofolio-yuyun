@@ -478,7 +478,7 @@ p {
 #Experience {
 	padding: 10rem 0;
 }
-#Experience .item {
+#projects .item {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -487,28 +487,28 @@ p {
 	margin-bottom: 15rem;
 	/* gap: 2rem; */
 }
-#Experience .item:nth-of-type(even) {
+#projects .item:nth-of-type(even) {
 	flex-direction: row-reverse;
 }
-#projeExperiencects .item .center {
+#projects .item .left {
 	flex: 1;
 }
-#Experience .item .center {
-	margin-left: -300px;
+#projects .item .right {
+	margin-left: -150px;
 	flex: 1;
 	background-color: var(--body-bg);
-	padding: 1rem 1rem;
-	border-radius: 5px;
+	padding: 5rem 3rem;
+	border-radius: 12px;
 	box-shadow: 0px 0px 20px #00000028;
 	z-index: 2;
 }
-#Experience .item:nth-of-type(even) .center {
+#projects .item:nth-of-type(even) .right {
 	margin-left: 0;
 }
-#Experience .item:nth-of-type(even) .center {
+#projects .item:nth-of-type(even) .left {
 	margin-left: -150px;
 }
-#Experience .item .center .img {
+#projects .item .left .img {
 	height: 500px;
 	overflow: hidden;
 	border-radius: 12px;
@@ -516,7 +516,7 @@ p {
 	box-shadow: 0px 0px 20px #4705fc33;
 	position: relative;
 }
-#Experience .item .center .img::after {
+#projects .item .left .img::after {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -525,67 +525,66 @@ p {
 	width: 100%;
 	background-color: #5a24ed38;
 }
-#Experience .item .center .img img {
+#projects .item .left .img img {
 	object-fit: cover;
 	transition: 0.3s ease transform;
 }
-#Experience .item:hover .center .img img {
+#projects .item:hover .left .img img {
 	transform: scale(1.1);
 	z-index: 1;
 }
-#Experience .item .center .Experience-title {
+#projects .item .right .project-title {
 	font-size: 2.5rem;
 	font-family: 'Montserrat';
 	margin-bottom: 1rem;
 }
-#Experience .item .center .Experience-sub-title {
+#projects .item .right .project-sub-title {
 	font-size: 1.6rem;
 	margin-bottom: 2rem;
 }
-#Experience .item .center .Experience-desc {
+#projects .item .right .project-desc {
 	color: var(--secondary-gray);
 	margin-bottom: 3rem;
 }
-#Experience .item .center .external-link {
+#projects .item .right .external-link {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	gap: 1rem;
 	padding: calc(0.6em - 4px) calc(1.6em - 4px);
 }
-#Experience .item .center .external-link svg {
+#projects .item .right .external-link svg {
 	width: 25px;
 }
 
 @media only screen and (max-width: 768px) {
-	#Experience .item {
+	#projects .item {
 		flex-direction: column;
 	}
-	#Experience .item .center {
+	#projects .item .left {
 		width: 100%;
 	}
-	#Experience .item .center {
+	#projects .item .right {
 		margin-left: 0;
 		width: 90%;
 		margin-top: -150px;
 	}
-	#Experience .item:nth-of-type(even) {
+	#projects .item:nth-of-type(even) {
 		flex-direction: column;
 	}
-	#Experience .item:nth-of-type(even) .left {
+	#projects .item:nth-of-type(even) .left {
 		margin-left: 0;
 	}
 }
 @media only screen and (max-width: 450px) {
-	#Experience .item .center .buttons {
+	#projects .item .right .buttons {
 		flex-direction: column;
 	}
-	#Experience .item .center .buttons a {
+	#projects .item .right .buttons a {
 		width: 100%;
 		text-align: center;
 	}
 }
-
 
 
 #testimonial {
@@ -784,10 +783,10 @@ p {
 }
 
 /* Projects Section */
-#projects {
+#Experience {
 	padding: 10rem 0;
 }
-#projects .item {
+#Experience .item {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -796,13 +795,13 @@ p {
 	margin-bottom: 15rem;
 	/* gap: 2rem; */
 }
-#projects .item:nth-of-type(even) {
+#Experience .item:nth-of-type(even) {
 	flex-direction: row-reverse;
 }
-#projects .item .left {
+#Experience .item .left {
 	flex: 1;
 }
-#projects .item .right {
+#Experience .item .right {
 	margin-left: -150px;
 	flex: 1;
 	background-color: var(--body-bg);
@@ -811,13 +810,13 @@ p {
 	box-shadow: 0px 0px 20px #00000028;
 	z-index: 2;
 }
-#projects .item:nth-of-type(even) .right {
+#Experience .item:nth-of-type(even) .right {
 	margin-left: 0;
 }
-#projects .item:nth-of-type(even) .left {
+#Experience .item:nth-of-type(even) .left {
 	margin-left: -150px;
 }
-#projects .item .left .img {
+#Experience .item .left .img {
 	height: 500px;
 	overflow: hidden;
 	border-radius: 12px;
@@ -825,7 +824,7 @@ p {
 	box-shadow: 0px 0px 20px #4705fc33;
 	position: relative;
 }
-#projects .item .left .img::after {
+#Experience .item .left .img::after {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -834,62 +833,62 @@ p {
 	width: 100%;
 	background-color: #5a24ed38;
 }
-#projects .item .left .img img {
+#Experience .item .left .img img {
 	object-fit: cover;
 	transition: 0.3s ease transform;
 }
-#projects .item:hover .left .img img {
+#Experience .item:hover .left .img img {
 	transform: scale(1.1);
 	z-index: 1;
 }
-#projects .item .right .project-title {
+#Experience .item .right .project-title {
 	font-size: 2.5rem;
 	font-family: 'Montserrat';
 	margin-bottom: 1rem;
 }
-#projects .item .right .project-sub-title {
+#Experience .item .right .project-sub-title {
 	font-size: 1.6rem;
 	margin-bottom: 2rem;
 }
-#projects .item .right .project-desc {
+#Experience .item .right .project-desc {
 	color: var(--secondary-gray);
 	margin-bottom: 3rem;
 }
-#projects .item .right .external-link {
+#Experience .item .right .external-link {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	gap: 1rem;
 	padding: calc(0.6em - 4px) calc(1.6em - 4px);
 }
-#projects .item .right .external-link svg {
+#Experience .item .right .external-link svg {
 	width: 25px;
 }
 
 @media only screen and (max-width: 768px) {
-	#projects .item {
+	#Experience .item {
 		flex-direction: column;
 	}
-	#projects .item .left {
+	#Experience .item .left {
 		width: 100%;
 	}
-	#projects .item .right {
+	#Experience .item .right {
 		margin-left: 0;
 		width: 90%;
 		margin-top: -150px;
 	}
-	#projects .item:nth-of-type(even) {
+	#Experience .item:nth-of-type(even) {
 		flex-direction: column;
 	}
-	#projects .item:nth-of-type(even) .left {
+	#Experience .item:nth-of-type(even) .left {
 		margin-left: 0;
 	}
 }
 @media only screen and (max-width: 450px) {
-	#projects .item .right .buttons {
+	#Experience .item .right .buttons {
 		flex-direction: column;
 	}
-	#projects .item .right .buttons a {
+	#Experience .item .right .buttons a {
 		width: 100%;
 		text-align: center;
 	}
