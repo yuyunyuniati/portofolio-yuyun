@@ -541,8 +541,7 @@ p {
 	font-size: 1.6rem;
 	margin-bottom: 2rem;
 }
-#projects .item .right .project-desc .ul {
-	font-size: 1.6rem;
+#projects .item .right .project-desc {
 	color: var(--secondary-gray);
 	margin-bottom: 3rem;
 }
@@ -805,14 +804,14 @@ p {
 	flex: 1;
 }
 #Experience .item .right {
-	/* width: 500px;
 	margin-left: -40px;
 	flex: 1;
 	background-color: var(--body-bg);
 	padding: 5rem 3rem;
-	border-radius: 12px;
-	box-shadow: 0px 0px 20px #00000028;
-	z-index: 2; */
+	/* border-radius: 12px;
+	box-shadow: 0px 0px 20px #00000028; */
+	z-index: 2; 
+
 	height: 500px;
 	width: 700px;
 	overflow: hidden;
