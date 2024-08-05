@@ -473,6 +473,121 @@ p {
 }
 
 /* testimonial section */
+
+/* Experience Section */
+#Experience {
+	padding: 10rem 0;
+}
+#Experience .item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 800px;
+	margin: 0 auto;
+	margin-bottom: 15rem;
+	/* gap: 2rem; */
+}
+#Experience .item:nth-of-type(even) {
+	flex-direction: row-reverse;
+}
+#projeExperiencects .item .center {
+	flex: 1;
+}
+#Experience .item .center {
+	margin-left: -150px;
+	flex: 1;
+	background-color: var(--body-bg);
+	padding: 5rem 3rem;
+	border-radius: 12px;
+	box-shadow: 0px 0px 20px #00000028;
+	z-index: 2;
+}
+#Experience .item:nth-of-type(even) .center {
+	margin-left: 0;
+}
+#Experience .item:nth-of-type(even) .center {
+	margin-left: -150px;
+}
+#Experience .item .center .img {
+	height: 500px;
+	overflow: hidden;
+	border-radius: 12px;
+	overflow: hidden;
+	box-shadow: 0px 0px 20px #4705fc33;
+	position: relative;
+}
+#Experience .item .center .img::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #5a24ed38;
+}
+#Experience .item .center .img img {
+	object-fit: cover;
+	transition: 0.3s ease transform;
+}
+#Experience .item:hover .center .img img {
+	transform: scale(1.1);
+	z-index: 1;
+}
+#Experience .item .center .Experience-title {
+	font-size: 2.5rem;
+	font-family: 'Montserrat';
+	margin-bottom: 1rem;
+}
+#Experience .item .center .Experience-sub-title {
+	font-size: 1.6rem;
+	margin-bottom: 2rem;
+}
+#Experience .item .center .Experience-desc {
+	color: var(--secondary-gray);
+	margin-bottom: 3rem;
+}
+#Experience .item .center .external-link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+	padding: calc(0.6em - 4px) calc(1.6em - 4px);
+}
+#Experience .item .center .external-link svg {
+	width: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+	#Experience .item {
+		flex-direction: column;
+	}
+	#Experience .item .center {
+		width: 100%;
+	}
+	#Experience .item .center {
+		margin-left: 0;
+		width: 90%;
+		margin-top: -150px;
+	}
+	#Experience .item:nth-of-type(even) {
+		flex-direction: column;
+	}
+	#Experience .item:nth-of-type(even) .left {
+		margin-left: 0;
+	}
+}
+@media only screen and (max-width: 450px) {
+	#Experience .item .center .buttons {
+		flex-direction: column;
+	}
+	#Experience .item .center .buttons a {
+		width: 100%;
+		text-align: center;
+	}
+}
+
+
+
 #testimonial {
 	padding: 15rem 0;
 	overflow-x: hidden;
