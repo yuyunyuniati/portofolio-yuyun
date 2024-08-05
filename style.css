@@ -804,7 +804,7 @@ p {
 	flex: 1;
 }
 #Experience .item .right {
-	/* margin-left: -200px; */
+	margin-left: -700px;
 	flex: 1;
 	background-color: var(--body-bg);
 	padding: 3rem 3rem;
