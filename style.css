@@ -804,7 +804,7 @@ p {
 	flex: 1;
 }
 #Experience .item .right {
-	width: auto;
+	width: 500px;
 	margin-left: -40px;
 	flex: 1;
 	background-color: var(--body-bg);
@@ -821,7 +821,7 @@ p {
 }
 #Experience .item .left .img {
 	height: 500px;
-	width: 600px;
+	width: 700px;
 	overflow: hidden;
 	border-radius: 12px;
 	overflow: hidden;
