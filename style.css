@@ -790,7 +790,7 @@ p {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	max-width: 800px;
+	max-width: 900px;
 	margin: 0 auto;
 	margin-bottom: 15rem;
 	/* gap: 2rem; */
@@ -803,6 +803,8 @@ p {
 }
 #Experience .item .right {
 	margin-left: -100px;
+	height: 500px;
+	width: 700px;
 	flex: 1;
 	background-color: var(--body-bg);
 	padding: 5rem 3rem;
