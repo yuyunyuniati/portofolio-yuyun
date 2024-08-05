@@ -802,7 +802,7 @@ p {
 	flex: 1;
 }
 #Experience .item .right {
-	margin-left: -150px;
+	margin-left: -100px;
 	flex: 1;
 	background-color: var(--body-bg);
 	padding: 5rem 3rem;
@@ -818,6 +818,7 @@ p {
 }
 #Experience .item .left .img {
 	height: 500px;
+	width: 700px;
 	overflow: hidden;
 	border-radius: 12px;
 	overflow: hidden;
@@ -841,16 +842,16 @@ p {
 	transform: scale(1.1);
 	z-index: 1;
 }
-#Experience .item .right .project-title {
+#Experience .item .right .Experience-title {
 	font-size: 2.5rem;
 	font-family: 'Montserrat';
 	margin-bottom: 1rem;
 }
-#Experience .item .right .project-sub-title {
+#Experience .item .right .Experience-sub-title {
 	font-size: 1.6rem;
 	margin-bottom: 2rem;
 }
-#Experience .item .right .project-desc {
+#Experience .item .right .Experience-desc {
 	color: var(--secondary-gray);
 	margin-bottom: 3rem;
 }
