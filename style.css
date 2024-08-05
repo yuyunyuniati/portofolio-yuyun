@@ -494,7 +494,7 @@ p {
 	flex: 1;
 }
 #Experience .item .center {
-	margin-left: -150px;
+	margin-left: -300px;
 	flex: 1;
 	background-color: var(--body-bg);
 	padding: 5rem 3rem;
