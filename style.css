@@ -853,7 +853,7 @@ p {
 	font-size: 1.9rem;
 	margin-bottom: 2rem;
 }
-#Experience .item .right .Experience-desc {
+#Experience .item .right .Experience-desc .ul .li {
 	font-size: 1.6rem;
 	color: var(--secondary-gray);
 	margin-bottom: 3rem;
