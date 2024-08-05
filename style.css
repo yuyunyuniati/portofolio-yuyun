@@ -804,21 +804,13 @@ p {
 	flex: 1;
 }
 #Experience .item .right {
-	margin-left: -40px;
+	margin-left: -200px;
 	flex: 1;
 	background-color: var(--body-bg);
 	padding: 5rem 3rem;
-	/* border-radius: 12px;
-	box-shadow: 0px 0px 20px #00000028; */
-	z-index: 2; 
-
-	height: 500px;
-	width: 700px;
-	overflow: hidden;
 	border-radius: 12px;
-	overflow: hidden;
-	box-shadow: 0px 0px 20px #4705fc33;
-	position: relative;
+	box-shadow: 0px 0px 20px #00000028;
+	z-index: 2; 
 }
 #Experience .item:nth-of-type(even) .right {
 	margin-left: 0;
