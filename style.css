@@ -851,10 +851,11 @@ p {
 	margin-bottom: 1rem;
 }
 #Experience .item .right .Experience-sub-title {
-	font-size: 1.6rem;
+	font-size: 1.9rem;
 	margin-bottom: 2rem;
 }
 #Experience .item .right .Experience-desc {
+	font-size: 1.6rem;
 	color: var(--secondary-gray);
 	margin-bottom: 3rem;
 }
