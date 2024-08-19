@@ -400,6 +400,7 @@ p {
 /* Skill Section */
 #services {
 	padding: 5rem 0;
+	justify-content: center;
 }
 
 #services .all-items {
@@ -413,7 +414,7 @@ p {
 	padding: 1.5rem;
 	transition: 0.3s ease-in-out background-color;
 	border-radius: 12px;
-	flex: 1;
+	flex: 0;
 }
 #services .item:nth-child(1):hover {
 	background-color: #cbbef093;
