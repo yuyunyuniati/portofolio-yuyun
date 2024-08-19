@@ -400,12 +400,10 @@ p {
 /* Skill Section */
 #services {
 	padding: 5rem 0;
-	justify-content: center;
 }
 
 #services .all-items {
-	margin: auto;
-	display: flex;
+	/* display: flex; */
 	align-items: flex-start;
 	justify-content: center;
 }
