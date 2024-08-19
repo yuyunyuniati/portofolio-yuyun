@@ -538,6 +538,11 @@ p {
 	font-family: 'Montserrat';
 	margin-bottom: 1rem;
 }
+#projects .item .right ul {
+	font-size: 1.6rem;
+	width: fit-content;
+	margin: 0 auto;
+}
 #projects .item .right .project-sub-title {
 	font-size: 1.6rem;
 	margin-bottom: 2rem;
