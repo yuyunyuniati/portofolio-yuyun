@@ -403,16 +403,17 @@ p {
 }
 
 #services .all-items {
+	margin: auto;
 	display: flex;
 	align-items: flex-start;
 	justify-content: center;
 }
 #services .item {
-	margin: auto;
+	/* margin: auto; */
 	padding: 1.5rem;
 	transition: 0.3s ease-in-out background-color;
 	border-radius: 12px;
-	flex: 1;
+	flex: 5;
 }
 #services .item:nth-child(1):hover {
 	background-color: #cbbef093;
