@@ -413,7 +413,7 @@ p {
 	padding: 1.5rem;
 	transition: 0.3s ease-in-out background-color;
 	border-radius: 12px;
-	flex: 5;
+	flex: 1;
 }
 #services .item:nth-child(1):hover {
 	background-color: #cbbef093;
