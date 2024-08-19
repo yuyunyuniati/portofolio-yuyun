@@ -409,7 +409,7 @@ p {
 }
 #services .item {
 	margin: auto;
-	/* padding: 1.5rem; */
+	padding: 1.5rem;
 	transition: 0.3s ease-in-out background-color;
 	border-radius: 12px;
 	flex: 1;
