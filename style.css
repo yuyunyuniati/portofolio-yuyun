@@ -410,11 +410,11 @@ p {
 	justify-content: center;
 }
 #services .item {
-	/* margin: auto; */
+	margin: auto;
 	padding: 1.5rem;
 	transition: 0.3s ease-in-out background-color;
 	border-radius: 12px;
-	flex: 0;
+	/* flex: 0; */
 }
 #services .item:nth-child(1):hover {
 	background-color: #cbbef093;
