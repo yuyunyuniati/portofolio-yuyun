@@ -403,7 +403,7 @@ p {
 }
 
 #services .all-items {
-	/* display: flex; */
+	display: flex;
 	align-items: flex-start;
 	justify-content: center;
 }
